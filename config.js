@@ -6,9 +6,13 @@ process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'inrl~ed94dUhin37d884ae2bbe305189dcc8ef454::11', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~1bde79396fbc3055d32fb8699a52762006be::10', //your ssid to run bot
     PORT: process.env.PORT || 3000,
-    BASE_URL : "https://explicit-keely-webapi-55411c7e.koyeb.app/",
+    BASE_URL : "https://thoughtful-alvera-igpvdr-2dc99e5b.koyeb.app/",
+    PROVIDER_URL: "http://localhost:5000",
+    AUTH: {
+        token: "K2E0s2Actc8oDc9wDaRpEW9yuW8oOqRpOqH3O1SEO19wrdkOu1EBseQQIUSJuYAJsn=",
+    },
     PREFIX: '.',
     SUDO: '',
     REPO: "inr-l/inrl-bot-md",
