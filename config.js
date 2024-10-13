@@ -9,12 +9,11 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || 'inrl~1bde79396fbc3055d32fb8699a52762006be::10', //your ssid to run bot
     PORT: process.env.PORT || 3000,
     BASE_URL : "https://thoughtful-alvera-igpvdr-2dc99e5b.koyeb.app/",
-    PROVIDER_URL: "http://localhost:5000",
+    PROVIDER_URL: "https://indirect-rosamund-inrl-bot-3c87e07a.koyeb.app",
     AUTH: {
         token: "K2E0s2Actc8oDc9wDaRpEW9yuW8oOqRpOqH3O1SEO19wrdkOu1EBseQQIUSJuYAJsn=",
     },
     PREFIX: '.',
     SUDO: '',
-    REPO: "inr-l/inrl-bot-md",
     DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
 };
